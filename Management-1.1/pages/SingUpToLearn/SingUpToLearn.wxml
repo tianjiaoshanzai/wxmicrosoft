@@ -1,0 +1,46 @@
+<!--pages/SingUpToLearn/SingUpToLearn.wxml-->
+<!--text>pages/SingUpToLearn/SingUpToLearn.wxml</text-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  
+  <view class="container1">
+  <view class="section">
+    <view class="section__name">姓名</view>
+      <view class="nameinput">
+      <input name="name" placeholder="如：张三" />
+      </view>
+  </view>
+
+<view class="section section_gender">
+    <view class="section__title">性别</view>
+    <radio-group name="radio-group">
+      <label><radio value="man"/>男</label>
+      <label><radio value="woman"/>女</label>
+    </radio-group>
+  </view>
+
+  <view class="section">
+    <view class="section__phonenum">联系电话</view>
+      <view class="phonenumin">
+      <input name="phonenum" placeholder="如186xxxxxxxx" type="number"/>
+      </view>
+  </view>
+
+  <view class="section">
+    <view class="section__experience">相关经验</view>
+      <view class="expin">
+      <textarea name="experience" placeholder="如从业经历，相关学历等,方便我们为您安排合适的课程推荐" />
+      </view>
+  </view>
+
+  <view class="section">
+    <view class="section__question">主要问题</view>
+      <view class="quein">
+      <textarea name="question" placeholder="如学习费用，学习时长等" />
+      </view>
+  </view>
+    <navigator url='/pages/SubSuccess/SubSuccess'>
+    <button class="submit" type="primary" size="default">提交</button>
+    </navigator>
+  </view>
+
+</form>

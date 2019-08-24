@@ -1,0 +1,15 @@
+<!--pages/userPerson/userPerson.wxml-->
+<!--<text>pages/userPerson/userPerson.wxml</text>-->
+<view class="container">
+<text>请选择你的身份</text>
+<navigator url='/pages/SingUpToLearn/SingUpToLearn'><button type="primary" size="default">我要报名学习</button>
+</navigator>
+
+<button type="primary" size="default">我是管理员</button>
+<button type="primary" size="default">我是学员</button>
+<button type="primary" size="default">我是教职工</button>
+<button type="primary" size="default">我是合作单位</button>
+<button type="default" size="default">我要合作</button>
+<button type="default" size="default">我要加入</button>
+</view>
+<!--管理员、在读学员、教师职工和合作单位-->

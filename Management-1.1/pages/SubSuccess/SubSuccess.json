@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    
+    "mp-msg":"../../miniprogram_npm/weui-miniprogram/msg/msg"
+      
+  }
+  
+}

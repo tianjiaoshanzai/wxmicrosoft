@@ -1,0 +1,44 @@
+/* pages/SingUpToLearn/SingUpToLearn.wxss */
+
+.container1 {
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.nameinput{
+  background-color: rgb(255, 255, 255);
+  width: 740rpx;
+  height: 52rpx;
+
+}
+
+.phonenumin{
+  background-color: rgb(255, 255, 255);
+  width: 740rpx;
+  height: 52rpx;
+
+}
+
+.expin{
+  background-color: rgb(255, 255, 255);
+  width: 600rpx;
+  height: 300rpx;
+
+}
+
+.quein{
+  background-color: rgb(255, 255, 255);
+  width: 600rpx;
+  height: 300rpx;
+
+}
+
+.submit{
+  width: 200rpx;
+  height: 80rpx;
+
+}
