@@ -1,0 +1,32 @@
+<!--pages/SubSuccess/SubSuccess.wxml-->
+<!--text>pages/SubSuccess/SubSuccess.wxml</text-->
+<!--commandSTART>
+<view class="container1">
+  <text class="submes">提交成功！</text>
+    <navigator  url='/pages/index/index' open-type="switchTab" >
+    <button type="primary" size="default">返回主页</button>
+    </navigator>
+</view>
+</commandend-->
+
+<mp-msg type="success" title="操作成功">
+    <view slot="desc">你可以回到主页或看看我们的<navigator url="" class="weui-msg__link">公司介绍</navigator></view>
+    <!--view slot="extend">
+        <view>1. 说明1</view>
+        <view>2. 说明2</view>
+    </view-->
+    <view slot="handle">
+        <navigator  url='/pages/index/index' open-type="switchTab" >
+        <button class="weui-btn" type="primary">返回主页</button>
+        </navigator>
+        <!--button class="weui-btn" type="default">返回登陆</button-->
+    </view>
+    <view slot="footer">
+        <view class="weui-footer__links">
+            <navigator url="" class="weui-footer__link">底部链接文本</navigator>
+        </view>
+        <view class="weui-footer__text">Copyright © 2018-2019
+        chuangwei.apply</view>
+    </view>
+</mp-msg>
+

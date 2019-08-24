@@ -1,4 +1,7 @@
 //app.js
+//const myPackage = require('weui-miniprogram')
+//const msgPac = require('weui-miniprogram/miniprogram_dist/msg/msg')
+
 App({
   onLaunch: function () {
     // 展示本地存储能力

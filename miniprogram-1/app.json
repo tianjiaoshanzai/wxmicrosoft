@@ -1,8 +1,14 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/SubSuccess/SubSuccess",
+  
     "pages/logs/logs",
-    "pages/userPerson/userPerson"
+    "pages/userPerson/userPerson",
+    "pages/SingUpToLearn/SingUpToLearn",
+
+    "pages/Admin/Admin"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

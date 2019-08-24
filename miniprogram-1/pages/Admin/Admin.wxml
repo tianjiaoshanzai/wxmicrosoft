@@ -1,0 +1,11 @@
+<!--pages/Admin/Admin.wxml-->
+<!--text>pages/Admin/Admin.wxml</text-->
+<view class="container1">
+<text>待办事项如下</text>
+<text>报名事宜</text>
+<text>公司内部事宜</text>
+<text>合作企业事宜</text>
+<text>企业申请合作事宜</text>
+<text>招聘事宜</text>
+
+</view>

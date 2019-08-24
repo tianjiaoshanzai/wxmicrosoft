@@ -1,0 +1,16 @@
+/* pages/SubSuccess/SubSuccess.wxss */
+.container1 {
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.submes{
+  font-size: 50rpx;
+
+  color: rgb(0, 0, 0);
+}

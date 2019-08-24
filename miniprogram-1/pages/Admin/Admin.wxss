@@ -1,0 +1,9 @@
+/* pages/Admin/Admin.wxss */
+.container1 {
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
